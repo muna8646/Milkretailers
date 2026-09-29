@@ -67,7 +67,7 @@ export default function Login() {
     try {
       await registerRetailer(registerForm);
       setRegisterMessage(
-        "Your retailer account has been created successfully. Please wait for admin approval before you can log in. If it takes time, call the admin on +254 700 000 000 for more information."
+        "Your retailer account has been created successfully. Please wait for admin approval before you can log in. If it takes time, call the admin on 0768594683 for more information."
       );
       setRegisterForm(blankRegisterForm);
     } catch (error) {
